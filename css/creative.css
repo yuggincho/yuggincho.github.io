@@ -169,7 +169,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("http://chatonsky.net/folio/wp-content/uploads/2016/04/kim_kardashian_makeup_khloes_house_face_celebrity_92901_3840x2160.png");
+  background-image: url("myheader.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
