@@ -121,7 +121,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
-  background-color: #fff;
+  background-color: #000000;
 }
 
 @media (min-width: 992px) {
@@ -303,7 +303,7 @@ header.masthead p {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #000000;
+  color: #fff;
   background-color: #ee4b28 !important;
 }
 
