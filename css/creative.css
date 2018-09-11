@@ -172,6 +172,9 @@ header.masthead {
   background-image: url("../img/header.jpg");
   background-position: center center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 header.masthead hr {
