@@ -42,6 +42,10 @@ h6 {
   background-image: url("../img/header.jpg") !important;
 }
 
+.bg-secondary {
+  background-image: url("../img/header2.png") !important;
+}
+
 .bg-dark {
   background-color: #212529 !important;
 }
