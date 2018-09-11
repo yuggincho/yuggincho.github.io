@@ -167,9 +167,9 @@ img::-moz-selection {
 }
 
 header.masthead {
-  
+  padding-top: 10rem;
   padding-bottom: calc(10rem - 56px); 
-  background-image: url("../img/myheader.png");
+  background-image: url("../img/header.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
