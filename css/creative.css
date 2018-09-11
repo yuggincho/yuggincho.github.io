@@ -132,6 +132,11 @@ img::-moz-selection {
   #mainNav .navbar-brand {
     color: #000000;
   }
+  
+ .nav.navbar-nav li a {
+   color: #000000;
+ }
+
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #000000;
   }
