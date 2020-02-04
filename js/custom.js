@@ -105,7 +105,7 @@ $(document).ready(function()
 			{
 				
 				items:1,
-				loop:true,
+				loop:false,
 				autoplay:false,
 				autoplayTimeout:8000,
 				smartSpeed:1200,
@@ -113,7 +113,7 @@ $(document).ready(function()
 				dotsSpeed:1200,
 				mouseDrag:false,
 				nav:false,
-				dots:true,
+				dots:false,
 				margin:250
 			});
 		}
