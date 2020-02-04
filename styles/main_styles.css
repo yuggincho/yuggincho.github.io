@@ -607,8 +607,9 @@ section
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
-	padding-bottom: 100px;
+	padding-bottom: 0px;
 	padding-top: 100px;
+	z-index: -1
 	
 }
 .home_slider_container
