@@ -103,8 +103,7 @@ $(document).ready(function()
 			var homeSlider = $('.home_slider');
 			homeSlider.owlCarousel(
 			{
-				animateOut: 'fadeOutLeft',
-    			animateIn: 'fadeInRight',
+				
 				items:1,
 				loop:true,
 				autoplay:false,
