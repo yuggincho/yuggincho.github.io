@@ -104,7 +104,7 @@ $(document).ready(function()
 			homeSlider.owlCarousel(
 			{
 				
-				items:1,
+				items:0,
 				loop:false,
 				autoplay:false,
 				autoplayTimeout:8000,
