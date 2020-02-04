@@ -255,10 +255,13 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 80%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	border-radius: 5%;
+	overflow: hidden;
+	perspective: 1px;
 }
 .nopadding
 {
@@ -292,6 +295,7 @@ section
 	-ms-transition: all 400ms ease;
 	-o-transition: all 400ms ease;
 	transition: all 400ms ease;
+	
 }
 .header.scrolled
 {
@@ -598,10 +602,13 @@ section
 
 .home
 {
-	width: 100%;
-	height: 892px;
-	padding-left: 51px;
-	padding-right: 52px;
+	height: 900px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding-top: 100px;
+	
 }
 .home_slider_container
 {
@@ -619,6 +626,7 @@ section
 	transform: translateX(-50%);
 	bottom: 24px;
 	z-index: 10;
+	
 }
 .home_slider.owl-theme .owl-dots .owl-dot span
 {
@@ -633,6 +641,7 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	
 }
 .home_slider.owl-theme .owl-dots .owl-dot.active span,
 .home_slider.owl-theme .owl-dots .owl-dot:hover span
@@ -644,12 +653,14 @@ section
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	padding-top: 72px;
+	padding-bottom: 150px;
+	
 }
 .home_container_inner
 {
 	width: 100%;
 	height: 100%;
+	border-radius: 10%;
 }
 .home_content
 {
@@ -679,27 +690,6 @@ section
 	padding-right: 12px;
 	font-size: 24px;
 	color: #FFFFFF;
-}
-.home_link a::before
-{
-	display: block;
-	position: absolute;
-	left: 0;
-	bottom: -4px;
-	width: 100%;
-	height: 22px;
-	background: #000000;
-	content: '';
-	z-index: -1;
-	-webkit-transition: all 400ms ease;
-	-moz-transition: all 400ms ease;
-	-ms-transition: all 400ms ease;
-	-o-transition: all 400ms ease;
-	transition: all 400ms ease;
-}
-.home_link a:hover::before
-{
-	background: #de4f33;
 }
 
 /*********************************
@@ -1438,3 +1428,126 @@ section
 	color: #6d6d6d;
 	line-height: 67px;
 }
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: #000000;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #000000;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+	margin-top: -120px;
+
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+}
+
+.fa-spotify {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+}
+
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+}
+
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+}
+
+.fa-apple {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+}
+
