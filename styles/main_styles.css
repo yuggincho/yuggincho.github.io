@@ -606,6 +606,8 @@ html, body{
     margin: 0;
     padding: 0;
 }
+
+
 .home
 {
 	height: 100%;
@@ -647,10 +649,12 @@ html, body{
 {
 	font-size: 18px;
 	color: #FFFFFF;
+	background-color: rgba(0,0,0,.2);
 }
 .home_title
 {
 	margin-top: 24px;
+	background-color: rgba(0,0,0,.2);
 }
 .home_title h1
 {
@@ -659,6 +663,7 @@ html, body{
 .home_link
 {
 	margin-top: 21px;
+	background-color: rgba(0,0,0,.2);
 }
 .home_link a
 {
@@ -1448,7 +1453,7 @@ ul {
     list-style: none;
 }
 .footer-social-icons {
-    width: 350px;
+    width: 400px;
     display:block;
     margin: 0 auto;
 	margin-top: -120px;
@@ -1509,6 +1514,16 @@ ul.social-icons {
 }
 
 .fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+}
+
+.fa-facebook {
     padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
