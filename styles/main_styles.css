@@ -667,7 +667,7 @@ html, body{
 .home_link
 {
 	margin-top: 21px;
-	background-color: rgba(0,0,0,.2);
+	background-color: rgba(230,30,30,.2);
 	z-index: 9998;
 	position:relative;
 }
