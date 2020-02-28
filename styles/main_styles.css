@@ -667,7 +667,7 @@ html, body{
 .home_link
 {
 	margin-top: 21px;
-	background-color: rgba(230,30,30);
+	background-color: rgba(252, 15, 15);
 	z-index: 9998;
 	position:relative;
 }
@@ -677,7 +677,7 @@ html, body{
 	padding-left: 17px;
 	padding-right: 12px;
 	font-size: 24px;
-	background-color: rgba(230,30,30);
+	background-color: rgba(252, 15, 15);
 	z-index: 9998;
 	position:relative;
 }
