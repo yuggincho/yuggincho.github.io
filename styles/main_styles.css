@@ -648,8 +648,6 @@ html, body{
 }
 .home_content
 {
-	z-index: 9998;
-	position:relative;
 }
 .home_subtitle
 {
