@@ -664,7 +664,7 @@ html, body{
 {
 	margin-top: 21px;
 	background-color: rgba(0,0,0,.2);
-	z-index:-2;
+	z-index: 4;
 	position:relative;
 }
 .home_link a
@@ -674,7 +674,7 @@ html, body{
 	padding-right: 12px;
 	font-size: 24px;
 	color: #FFFFFF;
-	z-index:-2;
+	z-index: 4;
 	position:relative;
 }
 
