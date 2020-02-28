@@ -664,6 +664,7 @@ html, body{
 {
 	margin-top: 21px;
 	background-color: rgba(0,0,0,.2);
+	z-index:-2
 }
 .home_link a
 {
